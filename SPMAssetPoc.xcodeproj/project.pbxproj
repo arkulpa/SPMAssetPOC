@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8533CD427A157DB0015B0BD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F8533CD327A157DB0015B0BD /* README.md */; };
 		F8BD277227A14D62001544FA /* SPMAssetPocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD277127A14D62001544FA /* SPMAssetPocApp.swift */; };
 		F8BD277427A14D62001544FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BD277327A14D62001544FA /* ContentView.swift */; };
 		F8BD277627A14D63001544FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BD277527A14D63001544FA /* Assets.xcassets */; };
@@ -14,11 +15,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8533CD327A157DB0015B0BD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8BD276E27A14D62001544FA /* SPMAssetPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMAssetPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BD277127A14D62001544FA /* SPMAssetPocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMAssetPocApp.swift; sourceTree = "<group>"; };
 		F8BD277327A14D62001544FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8BD277527A14D63001544FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8BD277827A14D63001544FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8BD278027A14D85001544FA /* ModuleA */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ModuleA; sourceTree = "<group>"; };
+		F8BD278127A14D98001544FA /* ModuleB */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ModuleB; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		F8BD276527A14D62001544FA = {
 			isa = PBXGroup;
 			children = (
+				F8533CD327A157DB0015B0BD /* README.md */,
 				F8BD277027A14D62001544FA /* SPMAssetPoc */,
 				F8BD276F27A14D62001544FA /* Products */,
 			);
@@ -51,6 +56,7 @@
 		F8BD277027A14D62001544FA /* SPMAssetPoc */ = {
 			isa = PBXGroup;
 			children = (
+				F8BD277F27A14D6A001544FA /* Modules */,
 				F8BD277127A14D62001544FA /* SPMAssetPocApp.swift */,
 				F8BD277327A14D62001544FA /* ContentView.swift */,
 				F8BD277527A14D63001544FA /* Assets.xcassets */,
@@ -65,6 +71,15 @@
 				F8BD277827A14D63001544FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8BD277F27A14D6A001544FA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD278127A14D98001544FA /* ModuleB */,
+				F8BD278027A14D85001544FA /* ModuleA */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8533CD427A157DB0015B0BD /* README.md in Resources */,
 				F8BD277927A14D63001544FA /* Preview Assets.xcassets in Resources */,
 				F8BD277627A14D63001544FA /* Assets.xcassets in Resources */,
 			);
